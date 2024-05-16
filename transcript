@@ -1,0 +1,300 @@
+# Compile of adder.sv was successful.
+# Compile of comparatorEqual.sv was successful.
+# Compile of comparatorGreaterThan.sv was successful.
+# Compile of comparatorLessThan.sv was successful.
+# Compile of convolution.sv was successful.
+# Compile of convolution_FSM.sv was successful.
+# Compile of convolution_TB.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of register.sv was successful.
+# Compile of simple_dual_port_ram_single_clk_sv.sv was successful.
+# Compile of simple_rom_sv.sv was successful.
+# Compile of subtractor.sv was successful.
+# 12 compiles, 0 failed with no errors.
+vsim -gui work.tb_convolucion
+# vsim -gui work.tb_convolucion 
+# Start time: 23:00:07 on May 13,2024
+# Loading sv_std.std
+# Loading work.tb_convolucion
+# Loading work.convolution
+# Loading work.convolution_FSM
+# Loading work.comparatorGreaterEqualThan
+# Loading work.comparatorEqual
+# Loading work.subtractor
+# Loading work.register
+# Loading work.multiplier
+# Loading work.comparatorLessThan
+# Loading work.adder
+# Loading work.simple_rom_sv
+# Loading work.simple_dual_port_ram_single_clk_sv
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'next_mem_data_Z'. The port definition is at: C:/SOC/convolution_2/convolution_FSM.sv(27).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/fsm_inst File: C:/SOC/convolution_2/convolution.sv Line: 70
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'a'. The port definition is at: C:/SOC/convolution_2/subtractor.sv(45).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/sub_addr_X File: C:/SOC/convolution_2/convolution.sv Line: 120
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'resultado'. The port definition is at: C:/SOC/convolution_2/multiplier.sv(49).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/multiplier_addr_X File: C:/SOC/convolution_2/convolution.sv Line: 145
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (8) for port 'B_i'. The port definition is at: C:/SOC/convolution_2/comparatorLessThan.sv(55).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/comp_l_t_X File: C:/SOC/convolution_2/convolution.sv Line: 165
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'b'. The port definition is at: C:/SOC/convolution_2/subtractor.sv(45).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/sub_size_Z File: C:/SOC/convolution_2/convolution.sv Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'resultado'. The port definition is at: C:/SOC/convolution_2/subtractor.sv(46).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/sub_size_Z File: C:/SOC/convolution_2/convolution.sv Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (7) for port 'b'. The port definition is at: C:/SOC/convolution_2/adder.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/add_size_Z File: C:/SOC/convolution_2/convolution.sv Line: 206
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'b'. The port definition is at: C:/SOC/convolution_2/adder.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/count_adder_i_inst File: C:/SOC/convolution_2/convolution.sv Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (6) for port 'data_i'. The port definition is at: C:/SOC/convolution_2/register.sv(59).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/mem_addr_Z_inst File: C:/SOC/convolution_2/convolution.sv Line: 267
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (6) for port 'data_o'. The port definition is at: C:/SOC/convolution_2/register.sv(60).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/mem_addr_Z_inst File: C:/SOC/convolution_2/convolution.sv Line: 267
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'data_i'. The port definition is at: C:/SOC/convolution_2/register.sv(59).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/mem_addr_Y_inst File: C:/SOC/convolution_2/convolution.sv Line: 281
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'data_o'. The port definition is at: C:/SOC/convolution_2/register.sv(60).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/mem_addr_Y_inst File: C:/SOC/convolution_2/convolution.sv Line: 281
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'a'. The port definition is at: C:/SOC/convolution_2/adder.sv(47).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/count_adder_data_Z File: C:/SOC/convolution_2/convolution.sv Line: 305
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'b'. The port definition is at: C:/SOC/convolution_2/adder.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/count_adder_data_Z File: C:/SOC/convolution_2/convolution.sv Line: 305
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'resultado'. The port definition is at: C:/SOC/convolution_2/adder.sv(49).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/count_adder_data_Z File: C:/SOC/convolution_2/convolution.sv Line: 305
+# ** Error (suppressible): (vsim-3839) Variable '/tb_convolucion/dut/next_mem_data_Z', driven via a port connection, is multiply driven. See C:/SOC/convolution_2/convolution.sv(70).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/count_adder_data_Z File: C:/SOC/convolution_2/convolution.sv Line: 305
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: C:/SOC/convolution_2/simple_dual_port_ram_single_clk_sv.sv(70).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/mem_Y File: C:/SOC/convolution_2/convolution_TB.sv Line: 46
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: C:/SOC/convolution_2/simple_dual_port_ram_single_clk_sv.sv(71).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/mem_Y File: C:/SOC/convolution_2/convolution_TB.sv Line: 46
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'write_data_i'. The port definition is at: C:/SOC/convolution_2/simple_dual_port_ram_single_clk_sv.sv(73).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/mem_Y File: C:/SOC/convolution_2/convolution_TB.sv Line: 46
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'read_addr_i'. The port definition is at: C:/SOC/convolution_2/simple_dual_port_ram_single_clk_sv.sv(72).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/mem_Z File: C:/SOC/convolution_2/convolution_TB.sv Line: 61
+# Error loading design
+# End time: 23:00:08 on May 13,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 21
+# Compile of adder.sv was successful.
+# Compile of comparatorEqual.sv was successful.
+# Compile of comparatorGreaterThan.sv was successful.
+# Compile of comparatorLessThan.sv was successful.
+# Compile of convolution.sv was successful.
+# Compile of convolution_FSM.sv was successful.
+# Compile of convolution_TB.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of register.sv was successful.
+# Compile of simple_dual_port_ram_single_clk_sv.sv was successful.
+# Compile of simple_rom_sv.sv was successful.
+# Compile of subtractor.sv was successful.
+# 12 compiles, 0 failed with no errors.
+vsim -gui work.tb_convolucion
+# vsim -gui work.tb_convolucion 
+# Start time: 23:01:16 on May 13,2024
+# Loading sv_std.std
+# Loading work.tb_convolucion
+# Loading work.convolution
+# Loading work.convolution_FSM
+# Loading work.comparatorGreaterEqualThan
+# Loading work.comparatorEqual
+# Loading work.subtractor
+# Loading work.register
+# Loading work.multiplier
+# Loading work.comparatorLessThan
+# Loading work.adder
+# Loading work.simple_rom_sv
+# Loading work.simple_dual_port_ram_single_clk_sv
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'next_mem_data_Z'. The port definition is at: C:/SOC/convolution_2/convolution_FSM.sv(27).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/fsm_inst File: C:/SOC/convolution_2/convolution.sv Line: 70
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'a'. The port definition is at: C:/SOC/convolution_2/subtractor.sv(45).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/sub_addr_X File: C:/SOC/convolution_2/convolution.sv Line: 120
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'resultado'. The port definition is at: C:/SOC/convolution_2/multiplier.sv(49).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/multiplier_addr_X File: C:/SOC/convolution_2/convolution.sv Line: 145
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (8) for port 'B_i'. The port definition is at: C:/SOC/convolution_2/comparatorLessThan.sv(55).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/comp_l_t_X File: C:/SOC/convolution_2/convolution.sv Line: 165
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'b'. The port definition is at: C:/SOC/convolution_2/subtractor.sv(45).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/sub_size_Z File: C:/SOC/convolution_2/convolution.sv Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'resultado'. The port definition is at: C:/SOC/convolution_2/subtractor.sv(46).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/sub_size_Z File: C:/SOC/convolution_2/convolution.sv Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (7) for port 'b'. The port definition is at: C:/SOC/convolution_2/adder.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/add_size_Z File: C:/SOC/convolution_2/convolution.sv Line: 206
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'b'. The port definition is at: C:/SOC/convolution_2/adder.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/count_adder_i_inst File: C:/SOC/convolution_2/convolution.sv Line: 217
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (6) for port 'data_i'. The port definition is at: C:/SOC/convolution_2/register.sv(59).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/mem_addr_Z_inst File: C:/SOC/convolution_2/convolution.sv Line: 267
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (6) for port 'data_o'. The port definition is at: C:/SOC/convolution_2/register.sv(60).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/mem_addr_Z_inst File: C:/SOC/convolution_2/convolution.sv Line: 267
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'data_i'. The port definition is at: C:/SOC/convolution_2/register.sv(59).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/mem_addr_Y_inst File: C:/SOC/convolution_2/convolution.sv Line: 281
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'data_o'. The port definition is at: C:/SOC/convolution_2/register.sv(60).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/mem_addr_Y_inst File: C:/SOC/convolution_2/convolution.sv Line: 281
+# ** Error (suppressible): (vsim-3839) Variable '/tb_convolucion/dut/next_mem_data_Z', driven via a port connection, is multiply driven. See C:/SOC/convolution_2/convolution.sv(70).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/count_adder_data_Z File: C:/SOC/convolution_2/convolution.sv Line: 305
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: C:/SOC/convolution_2/simple_dual_port_ram_single_clk_sv.sv(70).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/mem_Y File: C:/SOC/convolution_2/convolution_TB.sv Line: 46
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: C:/SOC/convolution_2/simple_dual_port_ram_single_clk_sv.sv(71).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/mem_Y File: C:/SOC/convolution_2/convolution_TB.sv Line: 46
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'write_data_i'. The port definition is at: C:/SOC/convolution_2/simple_dual_port_ram_single_clk_sv.sv(73).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/mem_Y File: C:/SOC/convolution_2/convolution_TB.sv Line: 46
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'read_addr_i'. The port definition is at: C:/SOC/convolution_2/simple_dual_port_ram_single_clk_sv.sv(72).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/mem_Z File: C:/SOC/convolution_2/convolution_TB.sv Line: 61
+# Error loading design
+# End time: 23:01:17 on May 13,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 18
+# Compile of adder.sv was successful.
+# Compile of comparatorEqual.sv was successful.
+# Compile of comparatorGreaterThan.sv was successful.
+# Compile of comparatorLessThan.sv was successful.
+# Compile of convolution.sv was successful.
+# Compile of convolution_FSM.sv failed with 1 errors.
+# Compile of convolution_TB.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of register.sv was successful.
+# Compile of simple_dual_port_ram_single_clk_sv.sv was successful.
+# Compile of simple_rom_sv.sv was successful.
+# Compile of subtractor.sv was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of adder.sv was successful.
+# Compile of comparatorEqual.sv was successful.
+# Compile of comparatorGreaterThan.sv was successful.
+# Compile of comparatorLessThan.sv was successful.
+# Compile of convolution.sv was successful.
+# Compile of convolution_FSM.sv failed with 1 errors.
+# Compile of convolution_TB.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of register.sv was successful.
+# Compile of simple_dual_port_ram_single_clk_sv.sv was successful.
+# Compile of simple_rom_sv.sv was successful.
+# Compile of subtractor.sv was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of adder.sv was successful.
+# Compile of comparatorEqual.sv was successful.
+# Compile of comparatorGreaterThan.sv was successful.
+# Compile of comparatorLessThan.sv was successful.
+# Compile of convolution.sv was successful.
+# Compile of convolution_FSM.sv failed with 1 errors.
+# Compile of convolution_TB.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of register.sv was successful.
+# Compile of simple_dual_port_ram_single_clk_sv.sv was successful.
+# Compile of simple_rom_sv.sv was successful.
+# Compile of subtractor.sv was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of adder.sv was successful.
+# Compile of comparatorEqual.sv was successful.
+# Compile of comparatorGreaterThan.sv was successful.
+# Compile of comparatorLessThan.sv was successful.
+# Compile of convolution.sv was successful.
+# Compile of convolution_FSM.sv failed with 1 errors.
+# Compile of convolution_TB.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of register.sv was successful.
+# Compile of simple_dual_port_ram_single_clk_sv.sv was successful.
+# Compile of simple_rom_sv.sv was successful.
+# Compile of subtractor.sv was successful.
+# 12 compiles, 1 failed with 1 error.
+# Compile of adder.sv was successful.
+# Compile of comparatorEqual.sv was successful.
+# Compile of comparatorGreaterThan.sv was successful.
+# Compile of comparatorLessThan.sv was successful.
+# Compile of convolution.sv was successful.
+# Compile of convolution_FSM.sv was successful.
+# Compile of convolution_TB.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of register.sv was successful.
+# Compile of simple_dual_port_ram_single_clk_sv.sv was successful.
+# Compile of simple_rom_sv.sv was successful.
+# Compile of subtractor.sv was successful.
+# 12 compiles, 0 failed with no errors.
+vsim -gui work.tb_convolucion
+# vsim -gui work.tb_convolucion 
+# Start time: 23:33:31 on May 13,2024
+# Loading sv_std.std
+# Loading work.tb_convolucion
+# Loading work.convolution
+# Loading work.convolution_FSM
+# Loading work.comparatorGreaterEqualThan
+# Loading work.comparatorEqual
+# Loading work.subtractor
+# Loading work.register
+# Loading work.multiplier
+# Loading work.comparatorLessThan
+# Loading work.adder
+# Loading work.simple_rom_sv
+# Loading work.simple_dual_port_ram_single_clk_sv
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'a'. The port definition is at: C:/SOC/convolution_2/subtractor.sv(45).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/sub_addr_X File: C:/SOC/convolution_2/convolution.sv Line: 122
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'resultado'. The port definition is at: C:/SOC/convolution_2/multiplier.sv(49).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/multiplier_addr_X File: C:/SOC/convolution_2/convolution.sv Line: 147
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (8) for port 'B_i'. The port definition is at: C:/SOC/convolution_2/comparatorLessThan.sv(55).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/comp_l_t_X File: C:/SOC/convolution_2/convolution.sv Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'b'. The port definition is at: C:/SOC/convolution_2/subtractor.sv(45).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/sub_size_Z File: C:/SOC/convolution_2/convolution.sv Line: 197
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'resultado'. The port definition is at: C:/SOC/convolution_2/subtractor.sv(46).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/sub_size_Z File: C:/SOC/convolution_2/convolution.sv Line: 197
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (7) for port 'b'. The port definition is at: C:/SOC/convolution_2/adder.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/add_size_Z File: C:/SOC/convolution_2/convolution.sv Line: 208
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'b'. The port definition is at: C:/SOC/convolution_2/adder.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/count_adder_i_inst File: C:/SOC/convolution_2/convolution.sv Line: 219
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (6) for port 'data_i'. The port definition is at: C:/SOC/convolution_2/register.sv(59).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/mem_addr_Z_inst File: C:/SOC/convolution_2/convolution.sv Line: 269
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (6) for port 'data_o'. The port definition is at: C:/SOC/convolution_2/register.sv(60).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/mem_addr_Z_inst File: C:/SOC/convolution_2/convolution.sv Line: 269
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'data_i'. The port definition is at: C:/SOC/convolution_2/register.sv(59).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/mem_addr_Y_inst File: C:/SOC/convolution_2/convolution.sv Line: 283
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'data_o'. The port definition is at: C:/SOC/convolution_2/register.sv(60).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/mem_addr_Y_inst File: C:/SOC/convolution_2/convolution.sv Line: 283
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'reg_mem_data_Z'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/reg_mem_data_Z File: C:/SOC/convolution_2/convolution.sv Line: 332
+# ** Warning: (vsim-3722) C:/SOC/convolution_2/convolution.sv(332): [TFMPC] - Missing connection for port 'clrh'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: C:/SOC/convolution_2/simple_dual_port_ram_single_clk_sv.sv(70).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/mem_Y File: C:/SOC/convolution_2/convolution_TB.sv Line: 46
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: C:/SOC/convolution_2/simple_dual_port_ram_single_clk_sv.sv(71).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/mem_Y File: C:/SOC/convolution_2/convolution_TB.sv Line: 46
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'write_data_i'. The port definition is at: C:/SOC/convolution_2/simple_dual_port_ram_single_clk_sv.sv(73).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/mem_Y File: C:/SOC/convolution_2/convolution_TB.sv Line: 46
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'read_addr_i'. The port definition is at: C:/SOC/convolution_2/simple_dual_port_ram_single_clk_sv.sv(72).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/mem_Z File: C:/SOC/convolution_2/convolution_TB.sv Line: 61
+add wave -position insertpoint sim:/tb_convolucion/dut/*
+add wave -position insertpoint sim:/tb_convolucion/dut/fsm_inst/*
+add wave -position insertpoint sim:/tb_convolucion/dut/reg_mem_data_Z/*
+log * -r
+run 1000000
+# WARNING: No extended dataflow license exists
+# Compile of convolution_FSM.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.convolution_FSM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'a'. The port definition is at: C:/SOC/convolution_2/subtractor.sv(45).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/sub_addr_X File: C:/SOC/convolution_2/convolution.sv Line: 122
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'resultado'. The port definition is at: C:/SOC/convolution_2/multiplier.sv(49).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/multiplier_addr_X File: C:/SOC/convolution_2/convolution.sv Line: 147
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (8) for port 'B_i'. The port definition is at: C:/SOC/convolution_2/comparatorLessThan.sv(55).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/comp_l_t_X File: C:/SOC/convolution_2/convolution.sv Line: 167
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'b'. The port definition is at: C:/SOC/convolution_2/subtractor.sv(45).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/sub_size_Z File: C:/SOC/convolution_2/convolution.sv Line: 197
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'resultado'. The port definition is at: C:/SOC/convolution_2/subtractor.sv(46).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/sub_size_Z File: C:/SOC/convolution_2/convolution.sv Line: 197
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (7) for port 'b'. The port definition is at: C:/SOC/convolution_2/adder.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/add_size_Z File: C:/SOC/convolution_2/convolution.sv Line: 208
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'b'. The port definition is at: C:/SOC/convolution_2/adder.sv(48).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/count_adder_i_inst File: C:/SOC/convolution_2/convolution.sv Line: 219
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (6) for port 'data_i'. The port definition is at: C:/SOC/convolution_2/register.sv(59).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/mem_addr_Z_inst File: C:/SOC/convolution_2/convolution.sv Line: 269
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (6) for port 'data_o'. The port definition is at: C:/SOC/convolution_2/register.sv(60).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/mem_addr_Z_inst File: C:/SOC/convolution_2/convolution.sv Line: 269
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'data_i'. The port definition is at: C:/SOC/convolution_2/register.sv(59).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/mem_addr_Y_inst File: C:/SOC/convolution_2/convolution.sv Line: 283
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'data_o'. The port definition is at: C:/SOC/convolution_2/register.sv(60).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/mem_addr_Y_inst File: C:/SOC/convolution_2/convolution.sv Line: 283
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'reg_mem_data_Z'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/dut/reg_mem_data_Z File: C:/SOC/convolution_2/convolution.sv Line: 332
+# ** Warning: (vsim-3722) C:/SOC/convolution_2/convolution.sv(332): [TFMPC] - Missing connection for port 'clrh'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: C:/SOC/convolution_2/simple_dual_port_ram_single_clk_sv.sv(70).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/mem_Y File: C:/SOC/convolution_2/convolution_TB.sv Line: 46
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: C:/SOC/convolution_2/simple_dual_port_ram_single_clk_sv.sv(71).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/mem_Y File: C:/SOC/convolution_2/convolution_TB.sv Line: 46
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'write_data_i'. The port definition is at: C:/SOC/convolution_2/simple_dual_port_ram_single_clk_sv.sv(73).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/mem_Y File: C:/SOC/convolution_2/convolution_TB.sv Line: 46
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'read_addr_i'. The port definition is at: C:/SOC/convolution_2/simple_dual_port_ram_single_clk_sv.sv(72).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_convolucion/mem_Z File: C:/SOC/convolution_2/convolution_TB.sv Line: 61
+log * -r
+run 1000000
+add wave -position insertpoint sim:/tb_convolucion/dut/reg_add_mem_data_Z/*
+# End time: 23:58:48 on May 13,2024, Elapsed time: 0:25:17
+# Errors: 0, Warnings: 18

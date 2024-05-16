@@ -1,0 +1,315 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/SOC/convolution
+vadder
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1715664801
+!i10b 1
+!s100 k9kJ@QT5W=?gZ0@5ll?Dg2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVdCo?i<lK=j?[Z7HFnFL;3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/SOC/convolution_2
+w1715299583
+8C:/SOC/convolution_2/adder.sv
+FC:/SOC/convolution_2/adder.sv
+!i122 418
+Z5 L0 44 11
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1715664801.000000
+!s107 C:/SOC/convolution_2/adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/SOC/convolution_2/adder.sv|
+!i113 1
+Z8 o-work work -sv
+Z9 tCvgOpt 0
+vcomparatorEqual
+R0
+R1
+!i10b 1
+!s100 2dgVnJ_2W?0cl28O1`JMj3
+R2
+Imoj>WaTD]l8]9EFe:ShAR1
+R3
+S1
+R4
+w1715128552
+8C:/SOC/convolution_2/comparatorEqual.sv
+FC:/SOC/convolution_2/comparatorEqual.sv
+!i122 419
+L0 44 12
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/SOC/convolution_2/comparatorEqual.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/SOC/convolution_2/comparatorEqual.sv|
+!i113 1
+R8
+R9
+ncomparator@equal
+vcomparatorGreaterEqualThan
+R0
+Z10 !s110 1715664802
+!i10b 1
+!s100 Jm_laBnbCl3WNG@cb^lLh0
+R2
+IV940a:M>>MT@ALKnkfi]R0
+R3
+S1
+R4
+Z11 w1715128483
+8C:/SOC/convolution_2/comparatorGreaterThan.sv
+FC:/SOC/convolution_2/comparatorGreaterThan.sv
+!i122 420
+L0 50 12
+R6
+r1
+!s85 0
+31
+Z12 !s108 1715664802.000000
+!s107 C:/SOC/convolution_2/comparatorGreaterThan.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/SOC/convolution_2/comparatorGreaterThan.sv|
+!i113 1
+R8
+R9
+ncomparator@greater@equal@than
+vcomparatorLessThan
+R0
+R10
+!i10b 1
+!s100 c[2;c<oQg5WYc]`32mS[i1
+R2
+I889nVMG8Z7nDdc5j`XE3i3
+R3
+S1
+R4
+R11
+8C:/SOC/convolution_2/comparatorLessThan.sv
+FC:/SOC/convolution_2/comparatorLessThan.sv
+!i122 421
+L0 50 14
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/SOC/convolution_2/comparatorLessThan.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/SOC/convolution_2/comparatorLessThan.sv|
+!i113 1
+R8
+R9
+ncomparator@less@than
+vconvolution
+R0
+R10
+!i10b 1
+!s100 h;UZBN3o930QnW9HS9kb`3
+R2
+I6P@8`@GOOaBF?gTdngC:L2
+R3
+S1
+R4
+w1715664664
+8C:/SOC/convolution_2/convolution.sv
+FC:/SOC/convolution_2/convolution.sv
+!i122 422
+L0 1 354
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/SOC/convolution_2/convolution.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/SOC/convolution_2/convolution.sv|
+!i113 1
+R8
+R9
+vconvolution_FSM
+R0
+!s110 1715665250
+!i10b 1
+!s100 `5XPiHODALZ@HJbBHTMdP2
+R2
+I7J@W]Gn2fni?DmlkQZBWJ0
+R3
+S1
+R4
+w1715665237
+8C:/SOC/convolution_2/convolution_FSM.sv
+FC:/SOC/convolution_2/convolution_FSM.sv
+!i122 430
+L0 1 126
+R6
+r1
+!s85 0
+31
+!s108 1715665250.000000
+!s107 C:/SOC/convolution_2/convolution_FSM.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/SOC/convolution_2/convolution_FSM.sv|
+!i113 1
+R8
+R9
+nconvolution_@f@s@m
+vmultiplier
+R0
+Z13 !s110 1715664803
+!i10b 1
+!s100 6iH7kc7D^neHoI3IIP1Cd1
+R2
+IWdNN=do5JzejRKieIV[A?3
+R3
+S1
+R4
+R11
+8C:/SOC/convolution_2/multiplier.sv
+FC:/SOC/convolution_2/multiplier.sv
+!i122 425
+R5
+R6
+r1
+!s85 0
+31
+Z14 !s108 1715664803.000000
+!s107 C:/SOC/convolution_2/multiplier.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/SOC/convolution_2/multiplier.sv|
+!i113 1
+R8
+R9
+vregister
+R0
+R13
+!i10b 1
+!s100 MfOc1B5F=YUGL`eifZMXb3
+R2
+ITh;C:iS9@Q7`dhjJIzkUW3
+R3
+S1
+R4
+R11
+8C:/SOC/convolution_2/register.sv
+FC:/SOC/convolution_2/register.sv
+!i122 426
+L0 49 28
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/SOC/convolution_2/register.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/SOC/convolution_2/register.sv|
+!i113 1
+R8
+R9
+vsimple_dual_port_ram_single_clk_sv
+R0
+R13
+!i10b 1
+!s100 KS4Ok[Ug?V7N2ab`Sz4W40
+R2
+I]6`G2EWzAUc5<g7_9S]X83
+R3
+S1
+R4
+w1715295872
+8C:/SOC/convolution_2/simple_dual_port_ram_single_clk_sv.sv
+FC:/SOC/convolution_2/simple_dual_port_ram_single_clk_sv.sv
+!i122 427
+L0 64 30
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/SOC/convolution_2/simple_dual_port_ram_single_clk_sv.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/SOC/convolution_2/simple_dual_port_ram_single_clk_sv.sv|
+!i113 1
+R8
+R9
+vsimple_rom_sv
+R0
+R13
+!i10b 1
+!s100 UQ=Rl:g8CzdmP>T_Jh[_01
+R2
+IAfPYDb8P=cJWz9kgl9K6X2
+R3
+S1
+R4
+w1714523280
+8C:/SOC/convolution_2/simple_rom_sv.sv
+FC:/SOC/convolution_2/simple_rom_sv.sv
+!i122 428
+L0 15 23
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/SOC/convolution_2/simple_rom_sv.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/SOC/convolution_2/simple_rom_sv.sv|
+!i113 1
+R8
+R9
+vsubtractor
+R0
+!s110 1715664804
+!i10b 1
+!s100 4BzQ?Ien0^VNBa^;9AY2A2
+R2
+IbJ`i_U7GBA1YZOF[jC?h53
+R3
+S1
+R4
+w1715305373
+8C:/SOC/convolution_2/subtractor.sv
+FC:/SOC/convolution_2/subtractor.sv
+!i122 429
+L0 44 7
+R6
+r1
+!s85 0
+31
+!s108 1715664804.000000
+!s107 C:/SOC/convolution_2/subtractor.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/SOC/convolution_2/subtractor.sv|
+!i113 1
+R8
+R9
+vtb_convolucion
+R0
+R13
+!i10b 1
+!s100 k^]kFaB0o>ndg:8iCF4iK0
+R2
+I=HW7k<>GFba<n2EZLQ8kk3
+R3
+S1
+R4
+w1715652433
+8C:/SOC/convolution_2/convolution_TB.sv
+FC:/SOC/convolution_2/convolution_TB.sv
+!i122 424
+L0 1 85
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/SOC/convolution_2/convolution_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/SOC/convolution_2/convolution_TB.sv|
+!i113 1
+R8
+R9

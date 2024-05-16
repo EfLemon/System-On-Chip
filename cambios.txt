@@ -1,0 +1,2 @@
+1. count_j y count_j_next pasan a ser de 5 bits en lugar de 6 (lineas 34 y 35 convolucionador) 
+2. Data width de la multiplicación era muy grande, ahora pasa a ser de 1 solo bit (linea 138 convolucionador) 
